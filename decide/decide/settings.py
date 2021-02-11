@@ -167,6 +167,8 @@ DEFAULT_VERSION = 'v1'
 
 BASEURL = "https://egc-app-decide.herokuapp.com"
 
+APIS = {}
+
 try:
     from local_settings import *
 except ImportError:
